@@ -50,3 +50,9 @@
 
 # One loop paragraph
 The paragraph starts at line 545. My tool uses a loop to create the flower petals. And it repeats the process of creating each petals. For each petal, it creates the model, finds it position and rotates it around the flower center until all the petals are done.
+
+
+# The changed line
+DEFAULT_STEP = CLOUD_HEIGHT / 5
+
+I changed "DEFAULT_STEP = 2.0" so the movement of the cloud is based on its height. The higher the cloud is, the farther it moves.
