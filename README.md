@@ -46,3 +46,7 @@
     continue
 
     When it checks abs(x) or abs(z) is outside the limit, "continue" means skip and it will move to the next one.
+
+
+# One loop paragraph
+The paragraph starts at line 545. My tool uses a loop to create the flower petals. And it repeats the process of creating each petals. For each petal, it creates the model, finds it position and rotates it around the flower center until all the petals are done.
