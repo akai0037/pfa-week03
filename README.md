@@ -1,4 +1,24 @@
 # pfa-week03
+
+## What this tool is
+
+A small game that runs inside Maya. The script builds a garden with a cloud,
+its shadow, and flowers, and opens a control window. You move the cloud and
+turn rain on or off to grow as many flowers as you can before the time runs out.
+Sun flowers only grow outside the cloud's shadow, and rain flowers only grow
+while it is raining on them.
+
+## How to run it
+
+1. Open Maya and go to Windows > General Editors > Script Editor.
+2. Make a Python tab, paste all of `code.py` into it, and press Ctrl+Enter.
+3. The garden and the control window appear. Press "Start Game".
+
+Controls: Left / Right / Forward / Back move the cloud, the rain button turns
+rain on or off, and the "Game time" slider sets the round length (90 seconds by default).
+
+## Ten lines explained
+
 1. CLOUD_HEIGHT = 10.0
    
    START_POSITION = (-12.0, CLOUD_HEIGHT, 0.0)
